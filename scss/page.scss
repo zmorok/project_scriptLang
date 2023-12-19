@@ -8,6 +8,7 @@ main {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	& div {
+		background: #e7e7e7;
 		display: grid;
 		grid-template-columns: 1fr;
 		grid-template-rows: 1fr 3fr 3fr 2fr;
@@ -29,6 +30,7 @@ main {
 			user-select: none;
 			width: 200px;
 			height: 125px;
+			filter: drop-shadow(2px 2px 7px black);
 		}
 		& h2 {
 			text-align: center;
