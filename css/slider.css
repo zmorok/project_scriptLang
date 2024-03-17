@@ -1,9 +1,11 @@
+@charset "UTF-8";
 .slider_container {
   position: relative;
   overflow: hidden;
-  width: 100%;
-  max-width: 1000px;
-  height: 100%;
+  width: 90%; /* изменено на относительное значение */
+  max-width: 1000px; /* добавлено для ограничения максимальной ширины */
+  height: 40vw; /* изменено на относительное значение */
+  max-height: 400px; /* добавлено для ограничения максимальной высоты */
   margin: 25px auto;
 }
 .slider_container .slider {
@@ -12,10 +14,9 @@
 }
 .slider_container .slide {
   width: 100%;
-}
-.slider_container .slide img {
-  width: 1000px;
-  height: 400px;
+  display: flex;
+  justify-self: center;
+  align-self: center;
 }
 .slider_container .btn-prev,
 .slider_container .btn-next {
@@ -23,15 +24,15 @@
   top: 50%;
   transform: translateY(-50%);
   background: transparent;
-  font-size: 4em;
+  font-size: 4vw; /* изменено на относительное значение */
   color: #333;
   border: none;
-  padding: 10px;
+  padding: 1vw; /* изменено на относительное значение */
   cursor: pointer;
 }
 .slider_container .btn-prev {
-  left: 10px;
+  left: 1vw; /* изменено на относительное значение */
 }
 .slider_container .btn-next {
-  right: 10px;
+  right: 1vw; /* изменено на относительное значение */
 }

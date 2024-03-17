@@ -13,152 +13,175 @@
 </head>
 
 <body>
-  <div class="wrapper">
 
-    <header>
-      <a class="logo" href="../index.html"><img src="../images/svg/logo.svg"></a>
 
-      <div class="search">
-        <input placeholder="Search">
-        <button>
-          <i class="material-icons">search</i>
-        </button>
-      </div>
+  <header>
+    <a class="logo" href="../index.html"><img src="../images/svg/logo.svg"></a>
 
-      <nav>
+    <div class="search">
+      <input placeholder="Search">
+      <button>
+        <i class="material-icons">search</i>
+      </button>
+    </div>
+
+    <nav class="nav-sidebar">
+      <a class="burger-menu">
+        <img src="../images/svg/burger_menu.svg" onclick="showSidebar()">
+      </a>
+      <div class="sidebar-content">
+        <a>
+          <img src="../images/svg/close.svg" onclick="closeSidebar()">
+        </a>
         <a href="#">
           <figure>
             <img src="../images/svg/cart-shopping.svg">
             <figcaption>Корзина</figcaption>
           </figure>
         </a>
-        <a href="login/login.html">
+        <a href="../pages/login/login.html">
           <figure>
             <img src="../images/svg/account.svg">
             <figcaption>Аккаунт</figcaption>
           </figure>
         </a>
-      </nav>
+      </div>
+    </nav>
 
-    </header>
+    <nav class="nav-fullscreen">
+      <a href="#">
+        <figure>
+          <img src="../images/svg/cart-shopping.svg">
+          <figcaption>Корзина</figcaption>
+        </figure>
+      </a>
+      <a href="login/login.html">
+        <figure>
+          <img src="../images/svg/account.svg">
+          <figcaption>Аккаунт</figcaption>
+        </figure>
+      </a>
+    </nav>
 
-    <main>
-      <!--1-->
-      <div>
-        <img src="items/furniture/chair3.png">
-        <h2>Стул</h2>
-        <p>Стоимость: 100$</p>
-        <button class="btn_buy">Купить</button>
-      </div>
-      <div>
-        <img src="items/furniture//sneakers2.png">
-        <h2>Кроссовки</h2>
-        <p>Стоимость: 100$</p>
-        <button class="btn_buy">Купить</button>
-      </div>
-      <div>
-        <img src="items/furniture//sneakers3.png">
-        <h2>Кроссовки</h2>
-        <p>Стоимость: 100$</p>
-        <button class="btn_buy">Купить</button>
-      </div>
-      <div>
-        <img src="items/furniture//sneakers4.png">
-        <h2>Кроссовки</h2>
-        <p>Стоимость: 100$</p>
-        <button class="btn_buy">Купить</button>
-      </div>
-      <div>
-        <img src="items/furniture//sneakers5.png">
-        <h2>Кроссовки</h2>
-        <p>Стоимость: 100$</p>
-        <button class="btn_buy">Купить</button>
-      </div>
-      <div>
-        <img src="items/furniture//sneakers6.png">
-        <h2>Кроссовки</h2>
-        <p>Стоимость: 100$</p>
-        <button class="btn_buy">Купить</button>
-      </div>
-      <!--2-->
-      <div>
-        <img src="items/furniture//sneakers7.png">
-        <h2>Кроссовки</h2>
-        <p>Стоимость: 100$</p>
-        <button class="btn_buy">Купить</button>
-      </div>
-      <div>
-        <img src="items/furniture//sneakers8.png">
-        <h2>Кроссовки</h2>
-        <p>Стоимость: 100$</p>
-        <button class="btn_buy">Купить</button>
-      </div>
-      <div>
-        <img src="items/furniture//sneakers9.png">
-        <h2>Кроссовки</h2>
-        <p>Стоимость: 100$</p>
-        <button class="btn_buy">Купить</button>
-      </div>
-      <div>
-        <img src="items/furniture//sneakers10.png">
-        <h2>Кроссовки</h2>
-        <p>Стоимость: 100$</p>
-        <button class="btn_buy">Купить</button>
-      </div>
-      <div>
-        <img src="items/furniture//shoes1.png">
-        <h2>Туфли М</h2>
-        <p>Стоимость: 100$</p>
-        <button class="btn_buy">Купить</button>
-      </div>
-      <div>
-        <img src="items/furniture//shoes2.png">
-        <h2>Туфли М</h2>
-        <p>Стоимость: 100$</p>
-        <button class="btn_buy">Купить</button>
-      </div>
-      <!--3-->
-      <div>
-        <img src="items/furniture//heels1.png">
-        <h2>Каблуки</h2>
-        <p>Стоимость: 100$</p>
-        <button class="btn_buy">Купить</button>
-      </div>
-      <div>
-        <img src="items/furniture//heels2.png">
-        <h2>Каблуки</h2>
-        <p>Стоимость: 100$</p>
-        <button class="btn_buy">Купить</button>
-      </div>
-      <div>
-        <img src="items/furniture//childrens_shoes1.png">
-        <h2>Детские кроссовки М</h2>
-        <p>Стоимость: 100$</p>
-        <button class="btn_buy">Купить</button>
-      </div>
-      <div>
-        <img src="items/furniture//childrens_shoes2.png">
-        <h2>Детские тапочки М</h2>
-        <p>Стоимость: 100$</p>
-        <button class="btn_buy">Купить</button>
-      </div>
-      <div>
-        <img src="items/furniture//childrens_shoes3.png">
-        <h2>Детские тапочки Ж</h2>
-        <p>Стоимость: 100$</p>
-        <button class="btn_buy">Купить</button>
-      </div>
-      <div>
-        <img src="items/furniture//childrens_shoes4.png">
-        <h2>Детские тапочки Ж</h2>
-        <p>Стоимость: 100$</p>
-        <button class="btn_buy">Купить</button>
-      </div>
-    </main>
+  </header>
+  <main>
+    <!--1-->
+    <div>
+      <img src="items/furniture/chair3.png">
+      <h2>Стул</h2>
+      <p>Стоимость: 100$</p>
+      <button class="btn_buy">Купить</button>
+    </div>
+    <div>
+      <img src="items/furniture//sneakers2.png">
+      <h2>Кроссовки</h2>
+      <p>Стоимость: 100$</p>
+      <button class="btn_buy">Купить</button>
+    </div>
+    <div>
+      <img src="items/furniture//sneakers3.png">
+      <h2>Кроссовки</h2>
+      <p>Стоимость: 100$</p>
+      <button class="btn_buy">Купить</button>
+    </div>
+    <div>
+      <img src="items/furniture//sneakers4.png">
+      <h2>Кроссовки</h2>
+      <p>Стоимость: 100$</p>
+      <button class="btn_buy">Купить</button>
+    </div>
+    <div>
+      <img src="items/furniture//sneakers5.png">
+      <h2>Кроссовки</h2>
+      <p>Стоимость: 100$</p>
+      <button class="btn_buy">Купить</button>
+    </div>
+    <div>
+      <img src="items/furniture//sneakers6.png">
+      <h2>Кроссовки</h2>
+      <p>Стоимость: 100$</p>
+      <button class="btn_buy">Купить</button>
+    </div>
+    <!--2-->
+    <div>
+      <img src="items/furniture//sneakers7.png">
+      <h2>Кроссовки</h2>
+      <p>Стоимость: 100$</p>
+      <button class="btn_buy">Купить</button>
+    </div>
+    <div>
+      <img src="items/furniture//sneakers8.png">
+      <h2>Кроссовки</h2>
+      <p>Стоимость: 100$</p>
+      <button class="btn_buy">Купить</button>
+    </div>
+    <div>
+      <img src="items/furniture//sneakers9.png">
+      <h2>Кроссовки</h2>
+      <p>Стоимость: 100$</p>
+      <button class="btn_buy">Купить</button>
+    </div>
+    <div>
+      <img src="items/furniture//sneakers10.png">
+      <h2>Кроссовки</h2>
+      <p>Стоимость: 100$</p>
+      <button class="btn_buy">Купить</button>
+    </div>
+    <div>
+      <img src="items/furniture//shoes1.png">
+      <h2>Туфли М</h2>
+      <p>Стоимость: 100$</p>
+      <button class="btn_buy">Купить</button>
+    </div>
+    <div>
+      <img src="items/furniture//shoes2.png">
+      <h2>Туфли М</h2>
+      <p>Стоимость: 100$</p>
+      <button class="btn_buy">Купить</button>
+    </div>
+    <!--3-->
+    <div>
+      <img src="items/furniture//heels1.png">
+      <h2>Каблуки</h2>
+      <p>Стоимость: 100$</p>
+      <button class="btn_buy">Купить</button>
+    </div>
+    <div>
+      <img src="items/furniture//heels2.png">
+      <h2>Каблуки</h2>
+      <p>Стоимость: 100$</p>
+      <button class="btn_buy">Купить</button>
+    </div>
+    <div>
+      <img src="items/furniture//childrens_shoes1.png">
+      <h2>Детские кроссовки М</h2>
+      <p>Стоимость: 100$</p>
+      <button class="btn_buy">Купить</button>
+    </div>
+    <div>
+      <img src="items/furniture//childrens_shoes2.png">
+      <h2>Детские тапочки М</h2>
+      <p>Стоимость: 100$</p>
+      <button class="btn_buy">Купить</button>
+    </div>
+    <div>
+      <img src="items/furniture//childrens_shoes3.png">
+      <h2>Детские тапочки Ж</h2>
+      <p>Стоимость: 100$</p>
+      <button class="btn_buy">Купить</button>
+    </div>
+    <div>
+      <img src="items/furniture//childrens_shoes4.png">
+      <h2>Детские тапочки Ж</h2>
+      <p>Стоимость: 100$</p>
+      <button class="btn_buy">Купить</button>
+    </div>
+  </main>
 
-    <footer></footer>
+  <footer></footer>
 
-  </div>
+
 </body>
+<script type="text/javascript" src="../src/sidebar.js"></script>
 
 </html>

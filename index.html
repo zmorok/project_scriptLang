@@ -14,19 +14,24 @@
 </head>
 
 <body>
+  <header>
+    <a class="logo" href="index.html"><img src="images/svg/logo.svg"></a>
 
-  <div class="wrapper">
-    <header>
-      <a class="logo" href="index.html"><img src="images/svg/logo.svg"></a>
+    <div class="search">
+      <input placeholder="Search">
+      <button>
+        <i class="material-icons">search</i>
+      </button>
+    </div>
 
-      <div class="search">
-        <input placeholder="Search">
-        <button>
-          <i class="material-icons">search</i>
-        </button>
-      </div>
-
-      <nav>
+    <nav class="nav-sidebar">
+      <a class="burger-menu">
+        <img src="images/svg/burger_menu.svg" onclick="showSidebar()">
+      </a>
+      <div class="sidebar-content">
+        <a>
+          <img src="images/svg/close.svg" onclick="closeSidebar()">
+        </a>
         <a href="#">
           <figure>
             <img src="images/svg/cart-shopping.svg">
@@ -39,10 +44,26 @@
             <figcaption>Аккаунт</figcaption>
           </figure>
         </a>
-      </nav>
+      </div>
+    </nav>
 
-    </header>
-  </div>
+    <nav class="nav-fullscreen">
+      <a href="#">
+        <figure>
+          <img src="images/svg/cart-shopping.svg">
+          <figcaption>Корзина</figcaption>
+        </figure>
+      </a>
+      <a href="pages/login/login.html">
+        <figure>
+          <img src="images/svg/account.svg">
+          <figcaption>Аккаунт</figcaption>
+        </figure>
+      </a>
+    </nav>
+
+  </header>
+
 
   <div class="slider_container">
     <div class="slider">
@@ -97,7 +118,7 @@
     <!------------------------------------------------->
     <div class="stationery">
       <img src="images/catalog/stationery.jpg">
-      <a href="page.html">Концтовары</a>
+      <a href="page.html">Канцтовары</a>
     </div>
     <!------------------------------------------------->
     <div class="jewelry">
@@ -116,5 +137,6 @@
 </body>
 
 <script type="text/javascript" src="src/slider.js"></script>
+<script type="text/javascript" src="src/sidebar.js"></script>
 
 </html>

@@ -1,6 +1,6 @@
 main {
   height: auto;
-  padding: 10px 100px 10px 100px;
+  padding: 10px 100px;
   margin-bottom: 50px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -70,4 +70,17 @@ main div a {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
+}
+
+@media screen and (min-width: 841px) and (max-width: 1200px) {
+  main {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 250px);
+  }
+}
+@media screen and (max-width: 840px) {
+  main {
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(9, 250px);
+  }
 }

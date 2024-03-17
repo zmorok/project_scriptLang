@@ -46,11 +46,13 @@ header {
 		}
 	}
 
+	& .nav-sidebar {
+		display: none;
+	}
 	// навигация
-	& nav {
+	& .nav-fullscreen {
 		display: flex;
 		justify-content: space-between;
-		color: white;
 		& a {
 			color: white;
 			display: inline-block;
@@ -88,6 +90,56 @@ header {
 			}
 			& figcaption {
 				text-align: center;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 840px) {
+	header {
+		& .nav-fullscreen {
+			display: none;
+		}
+		& .nav-sidebar {
+			display: block;
+			& .burger-menu {
+				margin-right: 2vw;
+			}
+			& .sidebar-content {
+				display: none;
+				position: fixed;
+				top: 0;
+				right: 0;
+				height: 100vh;
+				width: 250px;
+				z-index: 999;
+				background-color: rgba(197, 197, 197, 0.562);
+				backdrop-filter: blur(10px);
+				box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.1);
+
+				flex-direction: column;
+				justify-content: flex-start;
+				align-items: flex-start;
+				& a {
+					text-decoration: none;
+					margin: 30px 0 0 35px;
+				}
+				& a figure {
+					padding: 20px 0;
+					display: flex;
+					flex-direction: row;
+					justify-content: space-evenly;
+					align-items: center;
+					transform: scale(1);
+					transition: transform 0.4s ease-in-out;
+					& img:hover {
+						transform: scale(1.4);
+						transition: transform 0.4s ease-in-out;
+					}
+					& figcaption {
+						font-size: 3vh;
+					}
+				}
 			}
 		}
 	}
