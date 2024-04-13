@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Обувь</title>
+  <link rel="stylesheet" href="../css/root.css">
+  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/page.css">
+  <link rel="stylesheet" href="../css/footer.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <style>
+    section {
+      height: 90vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    section p {
+      text-align: center;
+      font-size: 1.8rem;
+    }
+  </style>
+</head>
+
+<body>
+  <!--logo, search, navigation-->
+  <header>
+    <a class="logo" href="../index.html"><img src="../images/svg/logo.svg"></a>
+    <div class="search">
+      <input placeholder="Search">
+      <button>
+        <i class="material-icons">search</i>
+      </button>
+    </div>
+    <nav class="nav-sidebar">
+      <a class="burger-menu">
+        <img src="../images/svg/burger_menu.svg" onclick="showSidebar()">
+      </a>
+      <div class="sidebar-content">
+        <a>
+          <img src="../images/svg/close.svg" onclick="closeSidebar()">
+        </a>
+        <a href="#">
+          <figure>
+            <img src="../images/svg/cart-shopping.svg">
+            <figcaption>Корзина</figcaption>
+          </figure>
+        </a>
+        <a href="../pages/login/login.html">
+          <figure>
+            <img src="../images/svg/account.svg">
+            <figcaption>Аккаунт</figcaption>
+          </figure>
+        </a>
+      </div>
+    </nav>
+    <nav class="nav-fullscreen">
+      <a href="#">
+        <figure>
+          <img src="../images/svg/cart-shopping.svg">
+          <figcaption>Корзина</figcaption>
+        </figure>
+      </a>
+      <a href="login/login.html">
+        <figure>
+          <img src="../images/svg/account.svg">
+          <figcaption>Аккаунт</figcaption>
+        </figure>
+      </a>
+    </nav>
+  </header>
+
+  <h1 style="text-align: center;">Зоотовары</h1>
+  <!--pet supplies-->
+  <section class="inactive">
+    <p>Извините, секция каталога временно недоступна.<br> Мы работаем над улучшениями и скоро вернемся.<br> Приносим
+      извинения
+      за
+      возможные неудобства.</p>
+  </section>
+  <!--footer-->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>О нас</h3>
+        <p>Наш маркетплейс предоставляет уникальные возможности для покупки и продажи товаров и услуг.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Контакты</h3>
+        <p>Телефон: +7 (XXX) XXX-XX-XX<br>
+          Email: info@example.com<br>
+          Адрес: ул. Примерная, д. 123, г. Примерный, Россия</p>
+      </div>
+      <div class="footer-section">
+        <h3>Полезные ссылки</h3>
+        <ul>
+          <li><a href="#">Помощь</a></li>
+          <li><a href="#">Правила использования</a></li>
+          <li><a href="#">Конфиденциальность</a></li>
+          <li><a href="#">Условия использования</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>&copy; 2024 Название вашего маркетплейса. Все права защищены.</p>
+    </div>
+  </footer>
+</body>
+<script type="text/javascript" src="../src/sidebar.js"></script>
+
+</html>

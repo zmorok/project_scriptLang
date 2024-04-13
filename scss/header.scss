@@ -97,6 +97,9 @@ header {
 
 @media screen and (max-width: 840px) {
 	header {
+		& .search {
+			display: none;
+		}
 		& .nav-fullscreen {
 			display: none;
 		}

@@ -1,35 +1,33 @@
 main {
 	display: grid;
 	height: auto;
-	grid-template-columns: repeat(5, 1fr);
-	grid-template-rows: repeat(4, 300px);
+	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 	grid-gap: 50px 50px;
 	padding: 20px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	& div {
 		background: #e7e7e7;
+		padding: 10px 0;
 		display: flex;
-		justify-content: space-evenly;
+		justify-content: space-around;
 		flex-direction: column;
 		align-items: center;
 		border: 2px solid black;
 		width: 100%;
 		height: 100%;
 		transform: scale(1);
-		border-radius: 0;
-		box-shadow: none;
-		transition: all 0.7s;
+		transition: all 0.3s;
+		overflow: hidden;
 		&:hover {
-			transform: scale(1.2);
-			border-radius: 40px;
-			box-shadow: 0px 0px 50px rgb(0, 0, 0);
-			transition: 0.7s;
+			transform: scale(1.1);
+			border-radius: 30px;
+			transition: 0.3s;
 		}
 		& img {
 			user-select: none;
-			width: 200px;
-			height: 125px;
+			max-width: 100%;
+			height: auto;
 			filter: drop-shadow(2px 2px 7px black);
 		}
 		& h2 {
@@ -54,12 +52,23 @@ main {
 			font-size: 20px;
 			font-weight: bold;
 			cursor: pointer;
-			transition: all 0.7s;
+			transition: all 0.3s;
 			&:hover {
 				background-color: rgb(0, 0, 0);
 				color: white;
-				transition: 0.7s;
+				transition: 0.4s;
 			}
 		}
 	}
+}
+
+@media screen and (max-width: 840px) {
+	main {
+		grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+	}
+}
+
+h1 {
+	line-height: 0;
+	padding-top: 35px;
 }

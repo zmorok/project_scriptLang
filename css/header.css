@@ -90,6 +90,9 @@ header .nav-fullscreen a figcaption {
 }
 
 @media screen and (max-width: 840px) {
+  header .search {
+    display: none;
+  }
   header .nav-fullscreen {
     display: none;
   }

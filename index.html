@@ -14,16 +14,15 @@
 </head>
 
 <body>
+  <!--logo, search, navigation-->
   <header>
     <a class="logo" href="index.html"><img src="images/svg/logo.svg"></a>
-
     <div class="search">
       <input placeholder="Search">
       <button>
         <i class="material-icons">search</i>
       </button>
     </div>
-
     <nav class="nav-sidebar">
       <a class="burger-menu">
         <img src="images/svg/burger_menu.svg" onclick="showSidebar()">
@@ -46,7 +45,6 @@
         </a>
       </div>
     </nav>
-
     <nav class="nav-fullscreen">
       <a href="#">
         <figure>
@@ -61,10 +59,8 @@
         </figure>
       </a>
     </nav>
-
   </header>
-
-
+  <!--slider-->
   <div class="slider_container">
     <div class="slider">
       <div class="slide"><img src="images/slider/slide1.jpg"></div>
@@ -83,7 +79,7 @@
   </div>
 
   <h1 style="text-align: center;">Каталог</h1>
-
+  <!--catalog sections-->
   <main>
     <!------------------------------------------------->
     <div class="shoes">
@@ -98,42 +94,67 @@
     <!------------------------------------------------->
     <div class="sport">
       <img src="images/catalog/sport.jpg">
-      <a href="page.html">Спорт</a>
+      <a href="pages/page_sport.html">Спорт</a>
     </div>
     <!------------------------------------------------->
     <div class="electronics">
       <img src="images/catalog/electronics.jpg">
-      <a href="page.html">Электроника</a>
+      <a href="pages/page_electronics.html">Электроника</a>
     </div>
     <!------------------------------------------------->
     <div class="books">
       <img src="images/catalog/books.jpg">
-      <a href="page.html">Книги</a>
-    </div>
-    <!------------------------------------------------->
-    <div class="products">
-      <img src="images/catalog/products.jpg">
-      <a href="page.html">Продукты</a>
+      <a href="pages/page_books.html">Книги</a>
     </div>
     <!------------------------------------------------->
     <div class="stationery">
       <img src="images/catalog/stationery.jpg">
-      <a href="page.html">Канцтовары</a>
+      <a href="pages/page_stationery.html">Канцтовары</a>
     </div>
     <!------------------------------------------------->
     <div class="jewelry">
       <img src="images/catalog/jewelry.jpg">
-      <a href="/pages/page_jewelry.html">Ювелирные изделия</a>
+      <a href="pages/page_jewelry.html">Ювелирные изделия</a>
+    </div>
+    <!------------------------------------------------->
+    <div class="products">
+      <img src="images/catalog/products.jpg">
+      <a href="pages/page_products.html">Продукты</a>
     </div>
     <!------------------------------------------------->
     <div class="pet_supplies">
       <img src="images/catalog/pet_supplies.jpg">
-      <a href="page.html">Зоотовары</a>
+      <a href="pages/page_pet_supplies.html">Зоотовары</a>
     </div>
     <!------------------------------------------------->
   </main>
-
-  <footer></footer>
+  <!--footer-->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>О нас</h3>
+        <p>Наш маркетплейс предоставляет уникальные возможности для покупки и продажи товаров и услуг.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Контакты</h3>
+        <p>Телефон: +7 (XXX) XXX-XX-XX<br>
+          Email: info@example.com<br>
+          Адрес: ул. Примерная, д. 123, г. Примерный, Россия</p>
+      </div>
+      <div class="footer-section">
+        <h3>Полезные ссылки</h3>
+        <ul>
+          <li><a href="#">Помощь</a></li>
+          <li><a href="#">Правила использования</a></li>
+          <li><a href="#">Конфиденциальность</a></li>
+          <li><a href="#">Условия использования</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>&copy; 2024 Название вашего маркетплейса. Все права защищены.</p>
+    </div>
+  </footer>
 </body>
 
 <script type="text/javascript" src="src/slider.js"></script>

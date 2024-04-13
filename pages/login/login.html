@@ -12,11 +12,9 @@
 </head>
 
 <body>
-
-
+  <!--logo, search, navigation-->
   <header>
     <a class="logo" href="../../index.html"><img src="../../images/svg/logo.svg"></a>
-
     <nav class="nav-sidebar">
       <a class="burger-menu">
         <img src="../../images/svg/burger_menu.svg" onclick="showSidebar()">
@@ -39,7 +37,6 @@
         </a>
       </div>
     </nav>
-
     <nav class="nav-fullscreen">
       <a href="#">
         <figure>
@@ -54,8 +51,8 @@
         </figure>
       </a>
     </nav>
-
   </header>
+  <!--login form-->
   <section>
     <div class="form-box">
       <div class="form-value">
@@ -64,18 +61,25 @@
           <div class="inputbox">
             <ion-icon name="mail-outline"></ion-icon>
             <input type="text" required>
-            <label for="">login</label>
+            <label for="">Логин</label>
           </div>
           <div class="inputbox">
             <ion-icon name="lock-closed-outline"></ion-icon>
-            <input type="password" required>
-            <label for="">password</label>
+            <input type="password" id="passwordInput" required>
+            <label for="passwordInput">Пароль</label>
+            <span class="toggle-password" onclick="togglePasswordVisibility()">
+              <i class="material-icons">visibility</i>
+            </span>
           </div>
           <div class="forget">
-            <label for=""><input type="checkbox">Remember <a href="#">smth</a></label>
+            <input type="checkbox">
+            <label for="">
+              Остаться в системе
+              <a href="#">Забыли пароль?</a>
+            </label>
           </div>
           <button class="btn_log_in">
-            Log in
+            Войти
           </button>
           <div class="register">
             <p>У вас нет аккаунта? <a href="#"> Зарегестрироваться</a></p>
@@ -88,5 +92,6 @@
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 <script type="text/javascript" src="../../src/sidebar.js"></script>
+<script type="text/javascript" src="../../src/togglePasswordVisibility.js"></script>
 
 </html>

@@ -1,10 +1,10 @@
 .slider_container {
 	position: relative;
 	overflow: hidden;
-	width: 90%; /* изменено на относительное значение */
-	max-width: 1000px; /* добавлено для ограничения максимальной ширины */
-	height: 40vw; /* изменено на относительное значение */
-	max-height: 400px; /* добавлено для ограничения максимальной высоты */
+	width: 90%;
+	max-width: 1000px;
+	height: 40vw;
+	max-height: 400px;
 	margin: 25px auto;
 
 	.slider {
@@ -14,9 +14,7 @@
 
 	.slide {
 		width: 100%;
-		display: flex;
-		justify-self: center;
-		align-self: center;
+		height: auto;
 	}
 
 	.btn-prev,
@@ -25,18 +23,18 @@
 		top: 50%;
 		transform: translateY(-50%);
 		background: transparent;
-		font-size: 4vw; /* изменено на относительное значение */
+		font-size: 4vw;
 		color: #333;
 		border: none;
-		padding: 1vw; /* изменено на относительное значение */
+		padding: 1vw;
 		cursor: pointer;
 	}
 
 	.btn-prev {
-		left: 1vw; /* изменено на относительное значение */
+		left: 1vw;
 	}
 
 	.btn-next {
-		right: 1vw; /* изменено на относительное значение */
+		right: 1vw;
 	}
 }
