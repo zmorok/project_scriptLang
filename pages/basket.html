@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Книги</title>
+  <link rel="stylesheet" href="../css/root.css">
+  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/page.css">
+  <link rel="stylesheet" href="../css/footer.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <style>
+    section {
+      height: 90vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    section p {
+      text-align: center;
+      font-size: 1.8rem;
+      font-family: 'Montserrat';
+    }
+  </style>
+</head>
+
+<body>
+  <!--logo, search, navigation-->
+  <header>
+    <a class="logo" href="../index.html"><img src="../images/svg/logo.svg"></a>
+    <div class="search">
+      <input placeholder="Search">
+      <button>
+        <i class="material-icons">search</i>
+      </button>
+    </div>
+    <nav class="nav-sidebar">
+      <a class="burger-menu">
+        <img src="../images/svg/burger_menu.svg" onclick="showSidebar()">
+      </a>
+      <div class="sidebar-content">
+        <a>
+          <img src="../images/svg/close.svg" onclick="closeSidebar()">
+        </a>
+        <a href="basket.html">
+          <figure>
+            <img src="../images/svg/cart-shopping.svg">
+            <figcaption>Корзина</figcaption>
+          </figure>
+        </a>
+        <a href="../pages/login/login.html">
+          <figure>
+            <img src="../images/svg/account.svg">
+            <figcaption>Аккаунт</figcaption>
+          </figure>
+        </a>
+      </div>
+    </nav>
+    <nav class="nav-fullscreen">
+      <a href="basket.html">
+        <figure>
+          <img src="../images/svg/cart-shopping.svg">
+          <figcaption>Корзина</figcaption>
+        </figure>
+      </a>
+      <a href="login/login.html">
+        <figure>
+          <img src="../images/svg/account.svg">
+          <figcaption>Аккаунт</figcaption>
+        </figure>
+      </a>
+    </nav>
+  </header>
+
+  <h1>Корзина</h1>
+  <section class="inactive">
+    <p>Извините, корзина каталога в данное время недоступна.<br> Мы наблюдаем нагрузки со стороны сервера сайта.<br>
+      Приносим
+      извинения
+      за
+      возможные неудобства.</p>
+  </section>
+  <!--footer-->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>О нас</h3>
+        <p>Наш маркетплейс предоставляет уникальные возможности для покупки и продажи товаров и услуг.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Контакты</h3>
+        <ul>
+          <li>Телефон: +375-XX-XXX-XX-XX</li>
+          <li>Email: example@email.com</li>
+          <li>Адрес: ул. Примерная, д. 123, г. Примерный, Беларусь</li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Полезные ссылки</h3>
+        <ul class="useful-links">
+          <li><a href="#">Помощь</a></li>
+          <li><a href="#">Правила использования</a></li>
+          <li><a href="#">Конфиденциальность</a></li>
+          <li><a href="#">Условия использования</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Наши соцсети</h3>
+        <div class="social-nets">
+          <div><a target="_blank" href="https://vk.com/id420508717"><img src="../images/svg/social nets/vk.svg"
+                alt="vk"></a>
+          </div>
+          <div><a target="_blank" href="https://github.com/zmorok"><img src="../images/svg/social nets/github.svg"
+                alt="github"></a></div>
+          <div><a target="_blank" href="https://www.youtube.com/"><img src="../images/svg/social nets/youtube.svg"
+                alt="youtube"></a></div>
+          <div><a target="_blank" href="https://www.facebook.com"><img src="../images/svg/social nets/facebook.svg"
+                alt="facebook"></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>&copy; 2024 TradeUnity. Все права защищены.</p>
+    </div>
+  </footer>
+</body>
+<script type="text/javascript" src="../src/sidebar.js"></script>
+
+</html>

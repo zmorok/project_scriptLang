@@ -1,3 +1,5 @@
+@import url('../css/fonts.css');
+
 header {
 	width: 100%;
 	height: 75px;
@@ -5,13 +7,9 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	background-color: black;
-
-	//лого
 	& .logo {
 		margin-left: 20px;
 	}
-
-	// поиск
 	& .search {
 		display: flex;
 		justify-content: space-between;
@@ -59,6 +57,10 @@ header {
 			margin-right: 55px;
 			text-decoration: none;
 			position: relative;
+			font-family: 'Montserrat';
+			&:active {
+				color: red;
+			}
 			// кастом подчеркивание при наведении
 			&::before {
 				content: '';
@@ -123,9 +125,17 @@ header {
 				flex-direction: column;
 				justify-content: flex-start;
 				align-items: flex-start;
+				& .close {
+					padding-right: 100%;
+					cursor: pointer;
+				}
 				& a {
 					text-decoration: none;
 					margin: 30px 0 0 35px;
+					color: #000;
+					&:active {
+						color: red;
+					}
 				}
 				& a figure {
 					padding: 20px 0;
@@ -140,7 +150,9 @@ header {
 						transition: transform 0.4s ease-in-out;
 					}
 					& figcaption {
-						font-size: 3vh;
+						font-size: 1.1rem;
+						margin-left: 30px;
+						font-family: 'Nunito';
 					}
 				}
 			}

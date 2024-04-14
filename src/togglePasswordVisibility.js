@@ -1,6 +1,6 @@
 function togglePasswordVisibility() {
-	var passwordInput = document.getElementById('passwordInput')
-	var icon = document.querySelector('.toggle-password i')
+	let passwordInput = document.getElementById('passwordInput')
+	let icon = document.querySelector('.toggle-password i')
 
 	if (passwordInput.type === 'password') {
 		passwordInput.type = 'text'

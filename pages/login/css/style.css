@@ -2,7 +2,6 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -17,6 +16,7 @@ section {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  font-family: "Montserrat";
 }
 
 .form-box {
@@ -94,7 +94,7 @@ form > h2 {
   top: 13px;
 }
 
-/* Стили для кнопки видимости пароля */
+/* кнопка видимости пароля */
 .toggle-password {
   position: absolute;
   right: -15px;
@@ -104,7 +104,7 @@ form > h2 {
   color: #fff;
 }
 
-/* Стили для иконки Material Icons */
+/* иконки Material Icons */
 .material-icons {
   font-size: 1.5em; /* Размер иконки */
 }

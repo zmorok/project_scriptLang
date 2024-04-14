@@ -1,10 +1,10 @@
 # project_scriptLang
 
-## v1.1.0 project_scriptLang (Marketplace)
+## v2.0.0 TradeUnity (Marketplace)
 
-_Same changes as previous_ **[v.1.0.2](https://github.com/zmorok/project_scriptLang/commit/a258a0b4cd07c48586ff3bd5865bf64d940809ee)** _version_
+_Same changes as previous_ **[v.1.1.0](https://github.com/zmorok/project_scriptLang/commit/3ab5d0a5122238be8350e48641ff9b82dd022a17)** _version_
 
-- Added Pages
-  - Added Jewelry, Shoes, Login pages
-  - Added **_drop-shadow_** for images
-- Redesigned Login page
+- Name and Logo of website
+- All pages have items
+- Adaptivity of pages
+- Redesigned fonts, colors

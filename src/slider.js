@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	})
 
 	function updateImageSizes() {
-		const sliderWidth = document.querySelector('.slider_container').offsetWidth
+		const sliderWidth = document.querySelector('.slider-container').offsetWidth
 		slides.forEach(slide => {
 			const image = slide.querySelector('img')
 			image.style.width = sliderWidth + 'px'

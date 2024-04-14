@@ -1,3 +1,5 @@
+@import url('../css/fonts.css');
+
 main {
 	height: auto;
 	padding: 10px 100px;
@@ -58,6 +60,7 @@ main {
 			align-items: center;
 			text-align: center;
 			font-size: 3.5em;
+			font-family: 'Nunito';
 			font-weight: 600;
 			text-decoration: none;
 			color: black;
