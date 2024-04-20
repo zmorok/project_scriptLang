@@ -1,12 +1,12 @@
 function togglePasswordVisibility() {
 	let passwordInput = document.getElementById('passwordInput')
-	let icon = document.querySelector('.toggle-password i')
+	let img = document.querySelector('.toggle-password img')
 
 	if (passwordInput.type === 'password') {
 		passwordInput.type = 'text'
-		icon.textContent = 'visibility_off'
+		img.src = '../../images/svg/icons/visibility_off.svg'
 	} else {
 		passwordInput.type = 'password'
-		icon.textContent = 'visibility'
+		img.src = '../../images/svg/icons/visibility.svg'
 	}
 }

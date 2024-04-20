@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	let counter = 0
 
 	const slides = document.querySelectorAll('.slide')
+	updateImageSizes()
 
 	function updateSlider() {
 		const translateValue = -counter * 100 + '%'

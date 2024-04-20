@@ -4,14 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Логин</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="../../css/header.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
-  <title>Логин</title>
 </head>
 
 <body>
+
   <!--logo, search, navigation-->
   <header>
     <a class="logo" href="../../index.html"><img src="../../images/svg/logo.svg"></a>
@@ -52,6 +51,7 @@
       </a>
     </nav>
   </header>
+
   <!--login form-->
   <section>
     <div class="form-box">
@@ -59,16 +59,16 @@
         <form>
           <h2>Войти в аккаунт</h2>
           <div class="inputbox">
-            <ion-icon name="mail-outline"></ion-icon>
+            <img class="icon" src="../../images/svg/icons/mail-outline.svg" />
             <input type="text" required>
             <label for="">Логин</label>
           </div>
           <div class="inputbox">
-            <ion-icon name="lock-closed-outline"></ion-icon>
+            <img class="icon" src="../../images/svg/icons/lock-closed-outline.svg" />
             <input type="password" id="passwordInput" required>
             <label for="passwordInput">Пароль</label>
             <span class="toggle-password" onclick="togglePasswordVisibility()">
-              <i class="material-icons">visibility</i>
+              <img class="icon-visibility" src="../../images/svg/icons/visibility.svg" alt="visibility" />
             </span>
           </div>
           <div class="forget">
@@ -88,9 +88,9 @@
       </div>
     </div>
   </section>
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 </body>
+
 <script type="text/javascript" src="../../src/sidebar.js"></script>
 <script type="text/javascript" src="../../src/togglePasswordVisibility.js"></script>
 

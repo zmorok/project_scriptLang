@@ -86,27 +86,26 @@ form > h2 {
 .inputbox input:focus ~ label, .inputbox input:valid ~ label {
   top: -10px;
 }
-.inputbox ion-icon {
+.inputbox .icon {
   position: absolute;
   right: 8px;
-  color: #fff;
-  font-size: 2em;
-  top: 13px;
+  width: 35px;
+  top: 11px;
 }
 
 /* кнопка видимости пароля */
 .toggle-password {
   position: absolute;
-  right: -15px;
+  right: -25px;
   top: 70%;
   transform: translateY(-50%);
   cursor: pointer;
   color: #fff;
 }
 
-/* иконки Material Icons */
-.material-icons {
-  font-size: 1.5em; /* Размер иконки */
+/* иконкa */
+.icon-visibility {
+  width: 35px;
 }
 
 /* 'Остаться в системе, Забыли пароль?' */

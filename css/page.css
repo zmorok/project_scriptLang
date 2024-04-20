@@ -64,6 +64,18 @@ main div .btn_buy:hover {
   transition: 0.4s;
 }
 
+.inactive {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inactive p {
+  text-align: center;
+  font-size: 1.8rem;
+  font-family: "Montserrat";
+}
+
 @media screen and (max-width: 840px) {
   main {
     grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
