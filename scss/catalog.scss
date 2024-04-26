@@ -28,7 +28,7 @@ main {
 		}
 		&:hover {
 			transform: scale(1.05);
-			box-shadow: 0px 0px 50px rgb(0, 0, 0);
+			box-shadow: 0px 0px 15px rgb(0, 0, 0);
 			transition: 0.7s;
 			& > a {
 				color: white;

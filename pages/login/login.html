@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Логин</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style_login.css">
   <link rel="stylesheet" href="../../css/header.css">
 </head>
 
@@ -13,14 +13,14 @@
 
   <!--logo, search, navigation-->
   <header>
-    <a class="logo" href="../../index.html"><img src="../../images/svg/logo.svg"></a>
+    <a class="logo" href="../../index.html"><img src="../../images/svg/logo.svg" alt="logo.svg"></a>
     <nav class="nav-sidebar">
       <a class="burger-menu">
-        <img src="../../images/svg/burger_menu.svg" onclick="showSidebar()">
+        <img src="../../images/svg/burger_menu.svg" alt="burger_menu.svg" onclick="showSidebar()">
       </a>
       <div class="sidebar-content">
         <a>
-          <img src="../../images/svg/close.svg" onclick="closeSidebar()">
+          <img src="../../images/svg/close.svg" alt="close.svg" onclick="closeSidebar()">
         </a>
         <a href="../basket.html">
           <figure>
@@ -59,21 +59,21 @@
         <form>
           <h2>Войти в аккаунт</h2>
           <div class="inputbox">
-            <img class="icon" src="../../images/svg/icons/mail-outline.svg" />
-            <input type="text" required>
-            <label for="">Логин</label>
+            <img class="icon" src="../../images/svg/icons/mail-outline.svg" alt="mail-outline.svg">
+            <input type="text" id="login_text" required>
+            <label for="login_text">Логин</label>
           </div>
           <div class="inputbox">
-            <img class="icon" src="../../images/svg/icons/lock-closed-outline.svg" />
+            <img class="icon" src="../../images/svg/icons/lock-closed-outline.svg" alt="lock-closed-outline.svg">
             <input type="password" id="passwordInput" required>
             <label for="passwordInput">Пароль</label>
             <span class="toggle-password" onclick="togglePasswordVisibility()">
-              <img class="icon-visibility" src="../../images/svg/icons/visibility.svg" alt="visibility" />
+              <img class="icon-visibility" src="../../images/svg/icons/visibility_off.svg" alt="visibility_off">
             </span>
           </div>
           <div class="forget">
-            <input type="checkbox">
-            <label for="">
+            <input type="checkbox" id="forget_checkbox">
+            <label for="forget_checkbox">
               Остаться в системе
               <a href="#">Забыли пароль?</a>
             </label>
@@ -89,9 +89,9 @@
     </div>
   </section>
 
-</body>
+  <script src="../../src/sidebar.js"></script>
+  <script src="../../src/togglePasswordVisibility.js"></script>
 
-<script type="text/javascript" src="../../src/sidebar.js"></script>
-<script type="text/javascript" src="../../src/togglePasswordVisibility.js"></script>
+</body>
 
 </html>

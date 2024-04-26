@@ -13,20 +13,12 @@ document.addEventListener('DOMContentLoaded', function () {
 	}
 
 	nextButton.addEventListener('click', function () {
-		if (counter < slides.length - 1) {
-			counter++
-		} else {
-			counter = 0
-		}
+		counter < slides.length - 1 ? counter++ : (counter = 0)
 		updateSlider()
 	})
 
 	prevButton.addEventListener('click', function () {
-		if (counter > 0) {
-			counter--
-		} else {
-			counter = slides.length - 1
-		}
+		counter > 0 ? counter-- : (counter = slides.length - 1)
 		updateSlider()
 	})
 
@@ -45,11 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 	function startAutoSlide() {
 		intervalId = setInterval(function () {
-			if (counter < slides.length - 1) {
-				counter++
-			} else {
-				counter = 0
-			}
+			counter < slides.length - 1 ? counter++ : (counter = 0)
 			updateSlider()
 		}, 3000)
 	}

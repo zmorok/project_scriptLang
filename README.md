@@ -1,11 +1,11 @@
 # project_scriptLang
 
-## v2.1.0 TradeUnity (Marketplace)
+## v3.0.0 TradeUnity (Marketplace)
 
-_Same changes as previous_ **[v.2.0.0](https://github.com/zmorok/project_scriptLang/commit/0b3d3cddfd8010ebe993c99ed8b1d4455258192b)** _version_
-
+- Catalog and catalog's sections (9)
+- Adaptivity
 - Footer is adding via XML
 - Web-site layout
-- Changed _i_ and _ion-icon_ to _svg_
-- Fixed pages
-- Fixed js
+- JS for slider, _footer_ and some little items
+- Validated HTML pages and XML
+- Explaning note

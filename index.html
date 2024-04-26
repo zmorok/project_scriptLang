@@ -10,27 +10,27 @@
   <link rel="stylesheet" href="css/slider.css">
   <link rel="stylesheet" href="css/catalog.css">
   <link rel="stylesheet" href="css/footer.css">
-  <link rel="icon" href="favicon.svg" />
+  <link rel="icon" href="favicon.svg">
 </head>
 
 <body>
 
   <!--logo, search, navigation-->
   <header>
-    <a class="logo" href="index.html"><img src="images/svg/logo.svg"></a>
+    <a class="logo" href="index.html"><img src="images/svg/logo.svg" alt="logo.svg"></a>
     <div class="search">
       <input placeholder="Search">
       <button>
-        <img src="images/svg/icons/search.svg" />
+        <img src="images/svg/icons/search.svg" alt="search.svg">
       </button>
     </div>
     <nav class="nav-sidebar">
       <a class="burger-menu">
-        <img src="images/svg/burger_menu.svg" onclick="showSidebar()">
+        <img src="images/svg/burger_menu.svg" alt="burger_menu.svg" onclick="showSidebar()">
       </a>
       <div class="sidebar-content">
         <a>
-          <img class="close" src="images/svg/close.svg" onclick="closeSidebar()">
+          <img class="close" src="images/svg/close.svg" alt="close.svg" onclick="closeSidebar()">
         </a>
         <a href="pages/basket.html">
           <figure>
@@ -65,16 +65,16 @@
   <!--slider-->
   <div class="slider-container">
     <div class="slider">
-      <div class="slide"><img src="images/slider/slide1.jpg"></div>
-      <div class="slide"><img src="images/slider/slide2.jpg"></div>
-      <div class="slide"><img src="images/slider/slide3.jpg"></div>
-      <div class="slide"><img src="images/slider/slide4.jpg"></div>
-      <div class="slide"><img src="images/slider/slide5.jpg"></div>
-      <div class="slide"><img src="images/slider/slide6.jpg"></div>
-      <div class="slide"><img src="images/slider/slide7.jpg"></div>
-      <div class="slide"><img src="images/slider/slide8.jpg"></div>
-      <div class="slide"><img src="images/slider/slide9.jpg"></div>
-      <div class="slide"><img src="images/slider/slide10.jpg"></div>
+      <div class="slide"><img src="images/slider/slide1.jpg" alt="slide1.jpg"></div>
+      <div class="slide"><img src="images/slider/slide2.jpg" alt="slide2.jpg"></div>
+      <div class="slide"><img src="images/slider/slide3.jpg" alt="slide3.jpg"></div>
+      <div class="slide"><img src="images/slider/slide4.jpg" alt="slide4.jpg"></div>
+      <div class="slide"><img src="images/slider/slide5.jpg" alt="slide5.jpg"></div>
+      <div class="slide"><img src="images/slider/slide6.jpg" alt="slide6.jpg"></div>
+      <div class="slide"><img src="images/slider/slide7.jpg" alt="slide7.jpg"></div>
+      <div class="slide"><img src="images/slider/slide8.jpg" alt="slide8.jpg"></div>
+      <div class="slide"><img src="images/slider/slide9.jpg" alt="slide9.jpg"></div>
+      <div class="slide"><img src="images/slider/slide10.jpg" alt="slide10.jpg"></div>
     </div>
     <button class="btn-prev">&#10094;</button>
     <button class="btn-next">&#10095;</button>
@@ -83,52 +83,42 @@
   <h1>Каталог</h1>
   <!--catalog sections-->
   <main>
-    <!------------------------------------------------->
     <div class="shoes">
-      <img src="images/catalog/shoes.jpg">
+      <img src="images/catalog/shoes.jpg" alt="shoes.jpg">
       <a href="pages/page_shoes.html">Обувь</a>
     </div>
-    <!------------------------------------------------->
     <div class="furniture">
-      <img src="images/catalog/furniture.jpg">
+      <img src="images/catalog/furniture.jpg" alt="furniture.jpg">
       <a href="pages/page_furniture.html">Мебель</a>
     </div>
-    <!------------------------------------------------->
     <div class="sport">
-      <img src="images/catalog/sport.jpg">
+      <img src="images/catalog/sport.jpg" alt="sport.jpg">
       <a href="pages/page_sport.html">Спорт</a>
     </div>
-    <!------------------------------------------------->
     <div class="electronics">
-      <img src="images/catalog/electronics.jpg">
+      <img src="images/catalog/electronics.jpg" alt="electronics.jpg">
       <a href="pages/page_electronics.html">Электроника</a>
     </div>
-    <!------------------------------------------------->
     <div class="books">
-      <img src="images/catalog/books.jpg">
+      <img src="images/catalog/books.jpg" alt="books.jpg">
       <a href="pages/page_books.html">Книги</a>
     </div>
-    <!------------------------------------------------->
     <div class="stationery">
-      <img src="images/catalog/stationery.jpg">
+      <img src="images/catalog/stationery.jpg" alt="stationery.jpg">
       <a href="pages/page_stationery.html">Канцелярия</a>
     </div>
-    <!------------------------------------------------->
     <div class="jewelry">
-      <img src="images/catalog/jewelry.jpg">
+      <img src="images/catalog/jewelry.jpg" alt="jewelry.jpg">
       <a href="pages/page_jewelry.html">Ювелирные изделия</a>
     </div>
-    <!------------------------------------------------->
     <div class="products">
-      <img src="images/catalog/products.jpg">
+      <img src="images/catalog/products.jpg" alt="products.jpg">
       <a href="pages/page_products.html">Продукты</a>
     </div>
-    <!------------------------------------------------->
     <div class="pet_supplies">
-      <img src="images/catalog/pet_supplies.jpg">
+      <img src="images/catalog/pet_supplies.jpg" alt="pet_supplies.jpg">
       <a href="pages/page_pet_supplies.html">Зоотовары</a>
     </div>
-    <!------------------------------------------------->
   </main>
 
   <!--footer-->
@@ -136,10 +126,10 @@
     <div class="footer-container"></div>
   </footer>
 
-</body>
+  <script src="src/slider.js"></script>
+  <script src="src/sidebar.js"></script>
+  <script src="src/footer.js"></script>
 
-<script type="text/javascript" src="src/slider.js"></script>
-<script type="text/javascript" src="src/sidebar.js"></script>
-<script type="text/javascript" src="src/footer.js"></script>
+</body>
 
 </html>

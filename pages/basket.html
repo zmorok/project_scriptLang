@@ -15,20 +15,20 @@
 
   <!--logo, search, navigation-->
   <header>
-    <a class="logo" href="../index.html"><img src="../images/svg/logo.svg"></a>
+    <a class="logo" href="../index.html"><img src="../images/svg/logo.svg" alt="logo.svg"></a>
     <div class="search">
       <input placeholder="Search">
       <button>
-        <img src="../images/svg/icons/search.svg" />
+        <img src="../images/svg/icons/search.svg" alt="search.svg">
       </button>
     </div>
     <nav class="nav-sidebar">
       <a class="burger-menu">
-        <img src="../images/svg/burger_menu.svg" onclick="showSidebar()">
+        <img src="../images/svg/burger_menu.svg" alt="burger_menu.svg" onclick="showSidebar()">
       </a>
       <div class="sidebar-content">
         <a>
-          <img src="../images/svg/close.svg" onclick="closeSidebar()">
+          <img src="../images/svg/close.svg" alt="close.svg" onclick="closeSidebar()">
         </a>
         <a href="basket.html">
           <figure>
@@ -62,22 +62,22 @@
 
   <!--basket-->
   <h1>Корзина</h1>
-  <section class="inactive">
+  <div class="inactive">
     <p>Извините, корзина каталога в данное время недоступна.<br> Мы наблюдаем нагрузки со стороны сервера сайта.<br>
       Приносим
       извинения
       за
       возможные неудобства.</p>
-  </section>
+  </div>
 
   <!--footer-->
   <footer>
     <div class="footer-container"></div>
   </footer>
 
-</body>
+  <script src="../src/sidebar.js"></script>
+  <script src="../src/footer.js"></script>
 
-<script type="text/javascript" src="../src/sidebar.js"></script>
-<script type="text/javascript" src="../src/footer.js"></script>
+</body>
 
 </html>
