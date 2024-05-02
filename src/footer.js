@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	const getData = () => {
 		const footer = document.querySelector('footer')
 		const xhttp = new XMLHttpRequest()
-		xhttp.open('GET', '../footer.xml', true)
+		xhttp.open('GET', './footer.xml', true)
 		xhttp.send()
 		xhttp.onload = function () {
 			const xmlData = this.responseXML

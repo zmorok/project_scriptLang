@@ -24,10 +24,10 @@
   <div class="footer-section">
     <h3>Наши соцсети</h3>
     <div class="social-nets">
-      <div><a target="_blank" href="https://vk.com/id420508717"><img src="../images/svg/social nets/vk.svg" alt="vk" /></a></div>
-      <div><a target="_blank" href="https://github.com/zmorok"><img src="../images/svg/social nets/github.svg" alt="github" /></a></div>
-      <div><a target="_blank" href="https://www.youtube.com/"><img src="../images/svg/social nets/youtube.svg" alt="youtube" /></a></div>
-      <div><a target="_blank" href="https://www.facebook.com"><img src="../images/svg/social nets/facebook.svg" alt="facebook" /></a></div>
+      <div><a target="_blank" href="https://vk.com/id420508717"><img src="./images/svg/social nets/vk.svg" alt="vk" /></a></div>
+      <div><a target="_blank" href="https://github.com/zmorok"><img src="./images/svg/social nets/github.svg" alt="github" /></a></div>
+      <div><a target="_blank" href="https://www.youtube.com/"><img src="./images/svg/social nets/youtube.svg" alt="youtube" /></a></div>
+      <div><a target="_blank" href="https://www.facebook.com"><img src="./images/svg/social nets/facebook.svg" alt="facebook" /></a></div>
     </div>
   </div>
 </div>
