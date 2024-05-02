@@ -69,9 +69,17 @@ footer {
   .footer-container {
     flex-direction: column;
   }
+  .footer-container p {
+    width: 70%;
+    text-align: center;
+  }
   .footer-container h3 {
     margin: 20px;
     line-height: 0;
+  }
+  .footer-container .useful-links,
+  .footer-container ul {
+    text-align: center;
   }
   .social-nets {
     width: 50%;

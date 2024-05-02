@@ -68,10 +68,17 @@ footer {
 @media screen and (max-width: 840px) {
 	.footer-container {
 		flex-direction: column;
-
+		& p {
+			width: 70%;
+			text-align: center;
+		}
 		& h3 {
 			margin: 20px;
 			line-height: 0;
+		}
+		.useful-links,
+		ul {
+			text-align: center;
 		}
 	}
 	.social-nets {
