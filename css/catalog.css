@@ -77,14 +77,14 @@ main div a {
   main {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, 250px);
-    padding: 10px 20px;
+    padding: 15px 60px;
   }
 }
 @media screen and (max-width: 840px) {
   main {
     grid-template-columns: 100%;
     grid-template-rows: repeat(9, 250px);
-    padding: 10px 20px;
+    padding: 15px 100px;
   }
   main div a {
     font-size: 2.5rem;
