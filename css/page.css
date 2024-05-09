@@ -23,8 +23,8 @@ main div {
   overflow: hidden;
 }
 main div:hover {
-  transform: scale(1.1);
-  border-radius: 30px;
+  transform: scale(1.02);
+  border-radius: 10px;
   transition: 0.3s;
 }
 main div img {

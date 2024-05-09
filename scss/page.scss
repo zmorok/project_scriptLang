@@ -21,8 +21,8 @@ main {
 		transition: all 0.3s;
 		overflow: hidden;
 		&:hover {
-			transform: scale(1.1);
-			border-radius: 30px;
+			transform: scale(1.02);
+			border-radius: 10px;
 			transition: 0.3s;
 		}
 		& img {

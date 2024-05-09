@@ -3,121 +3,121 @@
   <data>
     <title>Книги</title>
     <main>
-      <div>
+      <div id="1">
         <img src="./items/books/book1.png" alt="book1.png" />
         <h2>Книга</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="2">
         <img src="./items/books/book2.png" alt="book2.png" />
         <h2>Книга</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="3">
         <img src="./items/books/book3.png" alt="book3.png" />
         <h2>Книга</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="4">
         <img src="./items/books/book4.png" alt="book4.png" />
         <h2>Книга</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="5">
         <img src="./items/books/book5.png" alt="book5.png" />
         <h2>Книга</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="6">
         <img src="./items/books/book6.png" alt="book6.png" />
         <h2>Книга</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="7">
         <img src="./items/books/book7.png" alt="book7.png" />
         <h2>Книга</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="8">
         <img src="./items/books/book8.png" alt="book8.png" />
         <h2>Книга</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="9">
         <img src="./items/books/book9.png" alt="book9.png" />
         <h2>Книга</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="10">
         <img src="./items/books/book10.png" alt="book10.png" />
         <h2>Книга</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="11">
         <img src="./items/books/book11.png" alt="book11.png" />
         <h2>Книга</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="12">
         <img src="./items/books/book12.png" alt="book12.png" />
         <h2>Книга</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="13">
         <img src="./items/books/book13.png" alt="book13.png" />
         <h2>Книга</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="14">
         <img src="./items/books/book14.png" alt="book14.png" />
         <h2>Книга</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="15">
         <img src="./items/books/book15.png" alt="book15.png" />
         <h2>Книга</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="16">
         <img src="./items/books/book16.png" alt="book16.png" />
         <h2>Книга</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="17">
         <img src="./items/books/book17.png" alt="book17.png" />
         <h2>Книга</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="18">
         <img src="./items/books/book18.png" alt="book18.png" />
         <h2>Книга</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="19">
         <img src="./items/books/book19.png" alt="book19.png" />
         <h2>Книга</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="20">
         <img src="./items/books/book20.png" alt="book20.png" />
         <h2>Книга</h2>
         <p>Стоимость: 100$</p>
@@ -128,121 +128,121 @@
   <data>
     <title>Электроника</title>
     <main>
-      <div>
+      <div id="1">
         <img src="./items/electronics/smartphone1.png" alt="smartphone1.png" />
         <h2>Смартфон</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="2">
         <img src="./items/electronics/smartphone2.png" alt="smartphone2.png" />
         <h2>Смартфон</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="3">
         <img src="./items/electronics/smartphone3.png" alt="smartphone3.png" />
         <h2>Смартфон</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="4">
         <img src="./items/electronics/smartphone4.png" alt="smartphone4.png" />
         <h2>Смартфон</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="5">
         <img src="./items/electronics/laptop1.png" alt="laptop1.png" />
-        <h2>Кроссовки</h2>
-        <p>Ноутбук: 100$</p>
+        <h2>Ноутбук</h2>
+        <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="6">
         <img src="./items/electronics/laptop2.png" alt="laptop2.png" />
         <h2>Ноутбук</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="7">
         <img src="./items/electronics/laptop3.png" alt="laptop3.png" />
         <h2>Ноутбук</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="8">
         <img src="./items/electronics/laptop4.png" alt="laptop4.png" />
         <h2>Ноутбук</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="9">
         <img src="./items/electronics/tv1.png" alt="tv1.png" />
         <h2>Телевизор</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="10">
         <img src="./items/electronics/tv2.png" alt="tv2.png" />
         <h2>Телевизор</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="11">
         <img src="./items/electronics/tv3.png" alt="tv3.png" />
         <h2>Телевизор</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="12">
         <img src="./items/electronics/tv4.png" alt="tv4.png" />
         <h2>Телевизор</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="13">
         <img src="./items/electronics/camera1.png" alt="camera1.png" />
         <h2>Фотокамера</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="14">
         <img src="./items/electronics/camera2.png" alt="camera2.png" />
         <h2>Фотокамера</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="15">
         <img src="./items/electronics/camera3.png" alt="camera3.png" />
         <h2>Фотокамера</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="16">
         <img src="./items/electronics/camera4.png" alt="camera4.png" />
         <h2>Фотокамера</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="17">
         <img src="./items/electronics/frigerator1.png" alt="frigerator1.png" />
         <h2>Холодильник</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="18">
         <img src="./items/electronics/washing_machine1.png" alt="washing_machine1.png" />
         <h2>Стиральная машина</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="19">
         <img src="./items/electronics/air_conditioner1.png" alt="air_conditioner1.png" />
         <h2>Кондиционер</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="20">
         <img src="./items/electronics/microwave1.png" alt="microwave1.png" />
         <h2>Микроволновка</h2>
         <p>Стоимость: 100$</p>
@@ -253,121 +253,121 @@
   <data>
     <title>Мебель</title>
     <main>
-      <div>
+      <div id="1">
         <img src="./items/furniture/chair1.png" alt="chair1.png" />
         <h2>Стул</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="2">
         <img src="./items/furniture/chair2.png" alt="chair2.png" />
         <h2>Стул</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="3">
         <img src="./items/furniture/chair3.png" alt="chair3.png" />
         <h2>Стул</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="4">
         <img src="./items/furniture/chair4.png" alt="chair4.png" />
         <h2>Стул</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="5">
         <img src="./items/furniture/sofa1.png" alt="sofa1.png" />
         <h2>Диван</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="6">
         <img src="./items/furniture/sofa2.png" alt="sofa2.png" />
         <h2>Диван</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="7">
         <img src="./items/furniture/sofa3.png" alt="sofa3.png" />
         <h2>Диван</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="8">
         <img src="./items/furniture/sofa4.png" alt="sofa4.png" />
         <h2>Диван</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="9">
         <img src="./items/furniture/table1.png" alt="table1.png" />
         <h2>Стол</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="10">
         <img src="./items/furniture/table2.png" alt="table2.png" />
         <h2>Стол</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="11">
         <img src="./items/furniture/table3.png" alt="table3.png" />
         <h2>Стол</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="12">
         <img src="./items/furniture/table4.png" alt="table4.png" />
         <h2>Стол</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="13">
         <img src="./items/furniture/closet1.png" alt="closet1.png" />
         <h2>Шкаф</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="14">
         <img src="./items/furniture/closet2.png" alt="closet2.png" />
         <h2>Шкаф</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="15">
         <img src="./items/furniture/closet3.png" alt="closet3.png" />
         <h2>Шкаф</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="16">
         <img src="./items/furniture/closet4.png" alt="closet4.png" />
         <h2>Шкаф</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="17">
         <img src="./items/furniture/bed1.png" alt="bed1.png" />
         <h2>Кровать</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="18">
         <img src="./items/furniture/bed2.png" alt="bed2.png" />
         <h2>Кровать</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="19">
         <img src="./items/furniture/bed3.png" alt="bed3.png" />
         <h2>Кровать</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="20">
         <img src="./items/furniture/bed4.png" alt="bed4.png" />
         <h2>Кровать</h2>
         <p>Стоимость: 100$</p>
@@ -378,121 +378,121 @@
   <data>
     <title>Ювелирные изделия</title>
     <main>
-      <div>
+      <div id="1">
         <img src="./items/jewelry/bracelet1.png" alt="bracelet1.png" />
         <h2>Браслет</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="2">
         <img src="./items/jewelry/bracelet2.png" alt="bracelet2.png" />
         <h2>Браслет</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="3">
         <img src="./items/jewelry/bracelet3.png" alt="bracelet3.png" />
         <h2>Браслет</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="4">
         <img src="./items/jewelry/bracelet4.png" alt="bracelet4.png" />
         <h2>Браслет</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="5">
         <img src="./items/jewelry/ring1.png" alt="ring1.png" />
         <h2>Кольцо</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="6">
         <img src="./items/jewelry/ring2.png" alt="ring2.png" />
         <h2>Кольцо</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="7">
         <img src="./items/jewelry/ring3.png" alt="ring3.png" />
         <h2>Кольцо</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="8">
         <img src="./items/jewelry/ring4.png" alt="ring4.png" />
         <h2>Кольцо</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div class="item_4">
+      <div id="9">
         <img src="./items/jewelry/watch1.png" alt="watch1.png" />
         <h2>Часы</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="10">
         <img src="./items/jewelry/watch2.png" alt="watch2.png" />
         <h2>Часы</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="11">
         <img src="./items/jewelry/watch3.png" alt="watch3.png" />
         <h2>Часы</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="12">
         <img src="./items/jewelry/watch4.png" alt="watch4.png" />
         <h2>Часы</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="13">
         <img src="./items/jewelry/necklace1.png" alt="necklace1.png" />
         <h2>Ожерелье</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="14">
         <img src="./items/jewelry/necklace2.png" alt="necklace2.png" />
         <h2>Ожерелье</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="15">
         <img src="./items/jewelry/necklace3.png" alt="necklace3.png" />
         <h2>Ожерелье</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="16">
         <img src="./items/jewelry/necklace4.png" alt="necklace4.png" />
         <h2>Ожерелье</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="17">
         <img src="./items/jewelry/cufflinks1.png" alt="cufflinks1.png" />
         <h2>Запонки</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="18">
         <img src="./items/jewelry/cufflinks2.png" alt="cufflinks2.png" />
         <h2>Запонки</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="19">
         <img src="./items/jewelry/earrings1.png" alt="earrings1.png" />
         <h2>Серьги</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="20">
         <img src="./items/jewelry/earrings2.png" alt="earrings2.png" />
         <h2>Серьги</h2>
         <p>Стоимость: 100$</p>
@@ -519,121 +519,121 @@
   <data>
     <title>Обувь</title>
     <main>
-      <div>
+      <div id="1">
         <img src="./items/shoes/sneakers1.png" alt="sneakers1.png" />
         <h2>Кроссовки</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="2">
         <img src="./items/shoes/sneakers2.png" alt="sneakers2.png" />
         <h2>Кроссовки</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="3">
         <img src="./items/shoes/sneakers3.png" alt="sneakers3.png" />
         <h2>Кроссовки</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="4">
         <img src="./items/shoes/sneakers4.png" alt="sneakers4.png" />
         <h2>Кроссовки</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="5">
         <img src="./items/shoes/sneakers5.png" alt="sneakers5.png" />
         <h2>Кроссовки</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="6">
         <img src="./items/shoes/sneakers6.png" alt="sneakers6.png" />
         <h2>Кроссовки</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="7">
         <img src="./items/shoes/sneakers7.png" alt="sneakers7.png" />
         <h2>Кроссовки</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="8">
         <img src="./items/shoes/sneakers8.png" alt="sneakers8.png" />
         <h2>Кроссовки</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="9">
         <img src="./items/shoes/sneakers9.png" alt="sneakers9.png" />
         <h2>Кроссовки</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="10">
         <img src="./items/shoes/sneakers10.png" alt="sneakers10.png" />
         <h2>Кроссовки</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="11">
         <img src="./items/shoes/shoes1.png" alt="shoes1.png" />
         <h2>Туфли М</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="12">
         <img src="./items/shoes/shoes2.png" alt="shoes2.png" />
         <h2>Туфли М</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="13">
         <img src="./items/shoes/heels1.png" alt="heels1.png" />
         <h2>Каблуки</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="14">
         <img src="./items/shoes/heels2.png" alt="heels2.png" />
         <h2>Каблуки</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="15">
         <img src="./items/shoes/childrens_shoes1.png" alt="childrens_shoes1.png" />
         <h2>Детские кроссовки М</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="16">
         <img src="./items/shoes/childrens_shoes2.png" alt="childrens_shoes2.png" />
         <h2>Детские тапочки М</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="17">
         <img src="./items/shoes/childrens_shoes3.png" alt="childrens_shoes3.png" />
         <h2>Детские тапочки Ж</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="18">
         <img src="./items/shoes/childrens_shoes4.png" alt="childrens_shoes4.png" />
         <h2>Детские тапочки Ж</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="19">
         <img src="./items/shoes/childrens_shoes5.png" alt="childrens_shoes5.png" />
         <h2>Детские ботиночки М</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="20">
         <img src="./items/shoes/childrens_shoes6.png" alt="childrens_shoes6.png" />
         <h2>Детские кроссовки М</h2>
         <p>Стоимость: 100$</p>
@@ -644,121 +644,121 @@
   <data>
     <title>Спорт</title>
     <main>
-      <div>
+      <div id="1">
         <img src="./items/sport/ball1.png" alt="ball1.png" />
         <h2>Мяч</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="2">
         <img src="./items/sport/ball2.png" alt="ball2.png" />
         <h2>Мяч</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="3">
         <img src="./items/sport/ball3.png" alt="ball3.png" />
         <h2>Мяч</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="4">
         <img src="./items/sport/ball4.png" alt="ball4.png" />
         <h2>Мяч</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="5">
         <img src="./items/sport/dumbbells1.png" alt="dumbbells1.png" />
         <h2>Гантели</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="6">
         <img src="./items/sport/dumbbells2.png" alt="dumbbells2.png" />
         <h2>Гантели</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="7">
         <img src="./items/sport/dumbbells3.png" alt="dumbbells3.png" />
         <h2>Гантели</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="8">
         <img src="./items/sport/dumbbells4.png" alt="dumbbells4.png" />
         <h2>Гантели</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="9">
         <img src="./items/sport/tennis_racket1.png" alt="tennis_racket1.png" />
         <h2>Теннисная ракетка</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="10">
         <img src="./items/sport/badminton_racket1.png" alt="badminton_racket1.png" />
         <h2>Ракетка для бадминтона</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="11">
         <img src="./items/sport/baseball_bat1.png" alt="baseball_bat1.png" />
         <h2>Бейсбольная бита</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="12">
         <img src="./items/sport/baseball_bat2.png" alt="baseball_bat2.png" />
         <h2>Бейсбольная бита</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="13">
         <img src="./items/sport/fitness_gloves1.png" alt="fitness_gloves1.png" />
         <h2>Перчатки для фитнеса</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="14">
         <img src="./items/sport/fitness_gloves2.png" alt="fitness_gloves2.png" />
         <h2>Перчатки для фитнеса</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="15">
         <img src="./items/sport/boxing_gloves1.png" alt="boxing_gloves1.png" />
         <h2>Боксёрские перчатки</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="16">
         <img src="./items/sport/boxing_gloves2.png" alt="boxing_gloves2.png" />
         <h2>Боксёрские перчатки</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="17">
         <img src="./items/sport/fitness_carpet1.png" alt="fitness_carpet1.png" />
         <h2>Коврик для фитнеса</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="18">
         <img src="./items/sport/belt1.png" alt="belt1.png" />
         <h2>Пояс</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="19">
         <img src="./items/sport/expander1.png" alt="expander1.png" />
         <h2>Эспандер</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="20">
         <img src="./items/sport/expander2.png" alt="expander2.png" />
         <h2>Эспандер</h2>
         <p>Стоимость: 100$</p>
@@ -769,121 +769,121 @@
   <data>
     <title>Канцелярия</title>
     <main>
-      <div>
+      <div id="1">
         <img src="./items/stationery/notebook1.png" alt="notebook1.png" />
         <h2>Тетрадь</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="2">
         <img src="./items/stationery/notebook2.png" alt="notebook2.png" />
         <h2>Тетрадь</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="3">
         <img src="./items/stationery/notebook3.png" alt="notebook3.png" />
         <h2>Тетрадь</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="4">
         <img src="./items/stationery/notebook4.png" alt="notebook4.png" />
         <h2>Тетрадь</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="5">
         <img src="./items/stationery/notebook5.png" alt="notebook5.png" />
         <h2>Тетрадь</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="6">
         <img src="./items/stationery/notebook6.png" alt="notebook6.png" />
         <h2>Тетрадь</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="7">
         <img src="./items/stationery/notebook7.png" alt="notebook7.png" />
         <h2>Тетрадь</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="8">
         <img src="./items/stationery/notebook8.png" alt="notebook8.png" />
         <h2>Тетрадь</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="9">
         <img src="./items/stationery/capillary_pens1.png" alt="capillary_pens1.png" />
         <h2>Ручки капиллярные</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="10">
         <img src="./items/stationery/capillary_pens2.png" alt="capillary_pens2.png" />
         <h2>Ручки капиллярные</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="11">
         <img src="./items/stationery/capillary_pens3.png" alt="capillary_pens3.png" />
         <h2>Ручки капиллярные</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="12">
         <img src="./items/stationery/capillary_pens4.png" alt="capillary_pens4.png" />
         <h2>Ручки капиллярные</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="13">
         <img src="./items/stationery/watercolor_pencils1.png" alt="watercolor_pencils1.png" />
         <h2>Карандаши акварельные</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="14">
         <img src="./items/stationery/watercolor_pencils2.png" alt="watercolor_pencils2.png" />
         <h2>Карандаши акварельные</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="15">
         <img src="./items/stationery/watercolor_pencils3.png" alt="watercolor_pencils3.png" />
         <h2>Карандаши акварельные</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="16">
         <img src="./items/stationery/watercolor_pencils4.png" alt="watercolor_pencils4.png" />
         <h2>Карандаши акварельные</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="17">
         <img src="./items/stationery/set_of_markers1.png" alt="set_of_markers1.png" />
         <h2>Набор маркеров</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="18">
         <img src="./items/stationery/paper1.png" alt="paper1.png" />
         <h2>Бумага</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="19">
         <img src="./items/stationery/acrylic_paints1.png" alt="acrylic_paints1.png" />
         <h2>Акриловые краски</h2>
         <p>Стоимость: 100$</p>
         <button class="btn_buy">Купить</button>
       </div>
-      <div>
+      <div id="20">
         <img src="./items/stationery/case_for_brushes1.png" alt="case_for_brushes1.png" />
         <h2>Пенал для кистей</h2>
         <p>Стоимость: 100$</p>
